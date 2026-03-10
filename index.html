@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omari | CS Student & Trader</title>
+    <!-- Font kutoka Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px border rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #4ecca3;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 { font-size: 2.5rem; color: #4ecca3; margin-bottom: 10px; }
+        p { color: #bdc3c7; margin-bottom: 25px; line-height: 1.6; }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .skill-badge {
+            background: rgba(78, 204, 163, 0.2);
+            color: #4ecca3;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            border: 1px solid #4ecca3;
+        }
+
+        .links { display: flex; flex-direction: column; gap: 15px; }
+
+        .btn {
+            background: #4ecca3;
+            color: #1a1a2e;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #45b291;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(78, 204, 163, 0.4);
+        }
+
+        footer { margin-top: 30px; font-size: 0.7rem; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Unaweza kubadilisha picha hii baadae -->
+    <img src="https://via.placeholder.com/150" alt="Omari" class="profile-img">
+    
+    <h1>Omari</h1>
+    <p>Computer Science Student @ Final Year | Tech Enthusiast | Forex Trader & Analyst</p>
+
+    <div class="skills">
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">Forex Trading</span>
+        <span class="skill-badge">Algo-Trading</span>
+        <span class="skill-badge">Football Stats</span>
+    </div>
+
+    <div class="links">
+        <a href="https://github.com/Bashaa29" class="btn">View My Projects</a>
+        <a href="#" class="btn">Connect on LinkedIn</a>
+        <a href="mailto:email@yako.com" class="btn">Contact Me</a>
+    </div>
+
+    <footer>
+        &copy; 2026 Omari - Built with ❤️ and GitHub Pages
+    </footer>
+</div>
+
+</body>
+</html>
